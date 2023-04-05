@@ -6,7 +6,8 @@ import android.content.Intent;
 import android.widget.Toast;
 
 public class CustomReceiver extends BroadcastReceiver {
-    private static final String ACTION_CUSTOM_BROADCAST = BuildConfig.APPLICATION_ID + ".ACTION_CUSTOM_BROADCAST";
+    private static final String ACTION_CUSTOM_BROADCAST =
+            BuildConfig.APPLICATION_ID + ".ACTION_CUSTOM_BROADCAST";
 
     public static final String EXTRA_INT = "EXTRA_INT_NUMBER";
 
